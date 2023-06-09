@@ -1,9 +1,7 @@
-"use client"
-
 import { FormCreateLocation } from "@/components/forms/FormCreateLocation";
 import { Location } from "@/components/resources/Location";
 
-export default function Home() {
+export default async function Home() {
 
   return (
     <main className="">

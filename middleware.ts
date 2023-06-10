@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { getUser } from "./lib/getUser";
+import { cookies } from "next/dist/client/components/headers";
 
 export async function middleware(request: NextRequest) {
 

@@ -6,9 +6,10 @@ import { redirect } from "next/navigation";
 export default function Home() {
 
   const sessionToken = cookies().get("session-token")
-  if (sessionToken != undefined) {
-    redirect('/cfa')
-  }
+  // console.log(sessionToken)
+  // if (sessionToken != undefined) {
+  //   redirect('/cfa')
+  // }
 
   return (
     <main className="">

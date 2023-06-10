@@ -44,7 +44,7 @@ export const FormLogin = () => {
         const json = await res.json()
         setLoading(false)
         if (res.status == 200) {
-            window.location.href = "/cfa"
+            window.location.href = "/location"
             return
         }
         setError(json.msg)

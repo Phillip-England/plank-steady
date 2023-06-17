@@ -41,7 +41,7 @@ export const FormSignup = () => {
             setError(json.msg)
             return
         }
-        window.location.href = "/"
+        // window.location.href = "/"
     }
 
     return (
